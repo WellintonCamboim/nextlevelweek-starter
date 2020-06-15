@@ -1,0 +1,22 @@
+{
+  "name": "nlw",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "4.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WellintonCamboim/nextlevelweek-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WellintonCamboim/nextlevelweek-starter/issues"
+  },
+  "homepage": "https://github.com/WellintonCamboim/nextlevelweek-starter#readme"
+}
