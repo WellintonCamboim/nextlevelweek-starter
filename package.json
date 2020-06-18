@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js"
+    "start": "nodemon src/server.js"
   },
   "dependencies": {
     "express": "4.17.1"
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/WellintonCamboim/nextlevelweek-starter/issues"
   },
-  "homepage": "https://github.com/WellintonCamboim/nextlevelweek-starter#readme"
+  "homepage": "https://github.com/WellintonCamboim/nextlevelweek-starter#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
