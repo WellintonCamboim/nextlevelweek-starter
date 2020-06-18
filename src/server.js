@@ -23,5 +23,10 @@ server.get("/create-point", (req, res) => {
     return res.render("create-point.html")
 })
 
+//search
+server.get("/search", (req, res) => {
+    return res.render("search-results.html")
+})
+
 //start server
 server.listen(3000)
